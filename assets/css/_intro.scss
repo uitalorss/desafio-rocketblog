@@ -1,0 +1,28 @@
+header {
+  background: $bg-main;
+  .content{
+    display: grid;
+    padding: 2rem 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+ul{
+  li{
+    display: inline;
+    a{
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.125rem;
+    }
+    & + li {
+      margin-left: 2rem;
+    }
+  }
+}
+
+form{
+  margin-left: auto;
+}
