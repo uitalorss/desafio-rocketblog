@@ -43,3 +43,40 @@ form{
     border-radius: 0 0.25rem 0.25rem 0;
   }
 }
+
+main{
+  background: $bg-main;
+  padding: 4rem 0;
+  border-bottom: 5px solid $green-destak;
+  .content-main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    img{
+      margin-left: auto;
+    }
+  }
+}
+
+.presentation{
+  h1{
+    font-size: 2.25rem;
+    line-height: 3rem;
+    color: $title-main;
+  }
+  p{
+    font-size: 1.125rem;
+    color: #ffffff;
+    line-height: 1.75rem;
+    padding: 1.25rem 0;
+  }
+  a{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: $title-main;
+    text-decoration: none;
+    span{
+      color: $green-destak;
+    }
+  }
+}
