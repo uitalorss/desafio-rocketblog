@@ -1,0 +1,16 @@
+.content-news{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 4rem 0;
+  gap: 4rem;
+}
+
+.news-details{
+  p{
+    padding: .5rem 0;
+    line-height: 1.5rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+}

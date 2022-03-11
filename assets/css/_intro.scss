@@ -16,6 +16,10 @@ ul{
       color: #ffffff;
       text-decoration: none;
       font-size: 1.125rem;
+      &.emphasis{
+        border-left: 2px solid $green-destak;
+        line-height: 0.5rem;
+      }
     }
     & + li {
       margin-left: 2rem;
