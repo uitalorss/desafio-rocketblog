@@ -14,3 +14,21 @@
     font-size: 1.5rem;
   }
 }
+
+.second-content-news{
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 2rem;
+}
+
+footer{
+  background: $bg-main;
+  .footer{
+    padding: 1rem 0;
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
