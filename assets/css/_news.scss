@@ -27,12 +27,22 @@
 }
 
 .second-content-news{
-  padding: 3rem 0;
+  padding-bottom: 3rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0 2rem;
   img{
     width: 100%;
+  }
+  @media only screen and (max-width: 720px){
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 1rem;
+  }
+
+  @media only screen and (max-width: 540px){
+    grid-template-columns: 1fr;
+    gap: 1rem 0;
+    width: 80%;
   }
 }
 
