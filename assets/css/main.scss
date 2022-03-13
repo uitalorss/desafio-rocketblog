@@ -20,6 +20,10 @@ body{
   @media (max-width: 720px){
     font-size: 87.5%;
   }
+
+  @media (max-width: 540px){
+    font-size: 75%;
+  }
 }
 
 p, a{
@@ -34,4 +38,19 @@ h1, h2{
 .container{
   max-width: 1280px;
   margin: 0 auto;
+  @media only screen and (max-width: 1280px){
+    max-width: 960px;
+  }
+
+  @media only screen and (max-width: 960px){
+    max-width: 720px;
+  }
+
+  @media only screen and (max-width: 720px){
+    max-width: 540px;
+  }
+
+  @media only screen and (max-width: 540px){
+    max-width: 100%;
+  }
 }
