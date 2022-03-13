@@ -6,6 +6,16 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: space-between;
+    @media only screen and (max-width: 960px){
+      grid-template-columns: 1fr 1fr;
+    }
+    @media only screen and (max-width: 540px){
+      grid-template-columns: 1fr;
+      img{
+        display: block;
+        margin: 0 auto;
+      }
+    }
   }
 }
 
@@ -20,10 +30,24 @@ ul{
         border-left: 2px solid $green-destak;
         line-height: 0.5rem;
       }
+      @media only screen and (max-width: 1280px){
+        font-size: 1rem;
+      }
     }
     & + li {
       margin-left: 2rem;
+      @media only screen and (max-width: 1280px){
+        margin-left: 1rem;
+      }
     }
+  }
+  @media only screen and (max-width: 960px){
+    display: flex;
+    justify-content: end;
+  }
+  @media only screen and (max-width: 540px){
+    justify-content: center;
+    margin-top: 2rem;
   }
 }
 
@@ -48,6 +72,9 @@ form{
       border-radius: 0 0.25rem 0.25rem 0;
     }
   }
+  @media only screen and (max-width: 960px){
+    display: none;
+  }
 }
 
 main{
@@ -69,6 +96,9 @@ main{
     @media only screen and (max-width: 540px){
       max-width: 80%;
     }
+  }
+  @media only screen and (max-width: 540px){
+    padding-top: 2rem;
   }
 }
 
